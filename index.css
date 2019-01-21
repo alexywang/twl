@@ -1,0 +1,104 @@
+/*Allow items to stretch to the end of the page*/
+html,body{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding:0;
+    font-family: Helvetica;
+}
+/*Spacing after a bullet*/
+li{
+    padding-bottom: 20px;
+}
+
+/*Table formatting*/
+table{
+    width: 100%;
+    table-layout: fixed;
+}
+td:nth-child(1){
+    vertical-align: top;
+    width: 3%;
+}
+td:nth-child(2){
+    vertical-align: top;
+    width: 17%;
+}
+td:nth-child(3){
+    width:80%;
+}
+td{
+    text-align: left;
+}
+
+/*default button formatting*/
+button{
+    background-color: white;
+    border: none;
+}
+
+#banner{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    background-image: linear-gradient(to right, #24589B,#249866);
+
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+
+}
+
+#search_container{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*Search bar takes up all of empty space minus space for the search button*/
+#searchbar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 1%; 
+    
+    margin-left: 20px;
+    margin-right: 85px;
+
+    font-size: 20px;
+
+    border-style: groove;
+    border-radius: 5px;
+
+    flex: 1;
+}
+
+
+/*Search button always right alined minus 10 pixels*/
+#searchbutton{
+    position: absolute;
+    right: 30;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+
+    font-size: 20px;
+
+}
+
+
+#searchresults_container{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#favourites_container{
+    margin-left: 20px;
+}
+
+#favourites_title{
+    color: #249866;
+    font-size: 30px;
+    font-weight: bold;
+}
