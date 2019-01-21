@@ -3,7 +3,7 @@ function search(){
     var url = "https://secure.toronto.ca/cc_sr_v1/data/swm_waste_wizard_APR?limit=1000";
     var wasteJson; //Data from api call
 
-    var query = document.getElementById(ids.searchbar).value;
+    var query = document.getElementById("searchbar").value;
 
     var apiPromise = apiCall(url);
 

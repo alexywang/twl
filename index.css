@@ -76,12 +76,16 @@ button{
 /*Search button always right alined minus 10 pixels*/
 #searchbutton{
     position: absolute;
-    right: 30;
+    right: 20;
 
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 13px;
+    padding-bottom: 13px;
     padding-left: 13px;
     padding-right: 13px;
+
+    background-color: green;
+    border: none;
+    border-radius: 5px;
 
     font-size: 20px;
 
